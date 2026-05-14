@@ -1,0 +1,12 @@
+name = "telegram-test-bot"
+main = "src/index.js"
+compatibility_date = "2024-05-14"
+
+# KV Namespace binding
+[[kv_namespaces]]
+binding = "TEST_DATA"
+id = "test_bot_kv" # Cloudflare KV Namespace ID
+
+[vars]
+# Bot token va Admin ID kodning ichida yozilgan, lekin bu yerda ham saqlash mumkin
+# Hozircha kodning o'zida qoldirdik.

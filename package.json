@@ -1,0 +1,22 @@
+{
+  "name": "telegram-test-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for managing tests, running on Cloudflare Workers.",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cloudflare",
+    "workers",
+    "test"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
